@@ -15,5 +15,7 @@ class HW1_P1_birthday {
     int month = birthday % 10000 / 100;
     
     System.out.println("Your birthday in Month/Date/Year format is" + month + "/" + date + "/" + year);
+  
+    s.close();
   }
 }

@@ -17,6 +17,7 @@ class HW4_Polynomial {
     
     Derivative p = new Derivative();
     System.out.println("Derivative of polynomial one is " + p.findDerivative(p1)); 
+    
   }
   
 }
@@ -76,7 +77,6 @@ class Polynomial {
     
     String resultPolynomial = "";
     for(int i = 0; i < coefficient.length; i++) {
-      BigDecimal j = new BigDecimal (i);
       resultPolynomial += (coefficient[i] +"X" + "^" + i);
       if (i < coefficient.length - 1) 
          resultPolynomial += " + ";

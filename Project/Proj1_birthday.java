@@ -12,9 +12,9 @@ class Proj1_birthday {
     int birthday1 = s.nextInt();
     s.nextLine();
     
-    int date1 = birthday1 % 100;
+    //int date1 = birthday1 % 100;
 
-    int year1 = birthday1 / 10000;
+    //int year1 = birthday1 / 10000;
     
     int month1 = birthday1 % 10000 / 100;
     
@@ -24,9 +24,9 @@ class Proj1_birthday {
     System.out.println("Please input Second person's date of birth in a format YYYYMMDD");
     int birthday2 = s.nextInt();
     
-    int date2 = birthday2 % 100;
+    //int date2 = birthday2 % 100;
 
-    int year2 = birthday2 / 10000;
+    //int year2 = birthday2 / 10000;
     
     int month2 = birthday2 % 10000 / 100;
     
@@ -120,6 +120,8 @@ class Proj1_birthday {
     } else {
       System.out.println(name1 + " and " + name2 + "are in the same age");
     } 
+
+    s.close();
   }
 }
 

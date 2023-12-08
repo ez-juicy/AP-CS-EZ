@@ -13,5 +13,6 @@ class HW1_P2_Vcylinder {
     double v = Math.pow(r,2) * Math.PI * h;
     System.out.format("I have a cylinder " + "%.3f", v);
     
+    s.close();
   }
 }

@@ -1,5 +1,4 @@
 import java.util.*;
-import java.io.*;
 
 
 public class Proj3_Gradebook {
@@ -302,11 +301,8 @@ class Teacher extends User {
 class Student extends User {
 
     private String name;
-    private String password;
     private Course course;
     private double overallGrade;
-    private String assignmentName;
-    private double grade;
     private ArrayList<Student> students;
     public Scanner s = new Scanner(System.in);
     public ArrayList<String> assignmentLabels;

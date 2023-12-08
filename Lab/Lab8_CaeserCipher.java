@@ -1,5 +1,4 @@
 import java.util.*;
-import java.lang.*;
 
 class Lab8_CaeserCipher {
   
@@ -20,7 +19,9 @@ class Lab8_CaeserCipher {
     
     System.out.printf("Your %s message is: %n%s%n", 
                       doEncrypt ? "encrypted" : "decrypted", 
-                      shiftMessage(message, shift, doEncrypt));    
+                      shiftMessage(message, shift, doEncrypt));   
+                      
+    s.close();
   }
     
  public static String shiftMessage(String message, int shift, boolean doEncrypt) {

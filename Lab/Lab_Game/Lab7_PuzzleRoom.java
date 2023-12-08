@@ -23,19 +23,17 @@ class Lab7_PuzzleRoom {
       System.out.println("Welcome! Your current location is in " + currentRoom.getName());
 
       String inputAction;
-      int userAnswer;
       boolean test = false;
       while(!test) {
+        
         while (currentRoom != goalRoom) {
         currentRoom.displayRoom();
         
         if (!currentRoom.isUnlocked()) {
           System.out.println("Please unlock the room");
           if (currentRoom.equals(puzzleRoom1)) {
-            userAnswer = dataValidation();
             currentRoom.setUnlocked(true);
           } else if (currentRoom.equals(puzzleRoom2)) {
-            userAnswer = dataValidation();
             currentRoom.setUnlocked(true);
           } else if (currentRoom.equals(spawnRoom)) {
             System.out.println("Please give a valid action");

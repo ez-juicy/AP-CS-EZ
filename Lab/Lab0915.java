@@ -25,6 +25,8 @@ class Lab0915 {
     } else {
       System.out.println("This number is not divisible by 3 or 4 or 5.");
     }   
+
+    s.close();
   }
 }
 
