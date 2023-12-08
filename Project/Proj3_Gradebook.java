@@ -14,7 +14,7 @@ public class Proj3_Gradebook {
                                {77, 93, 83, 88, 83, 89, 74, 82, 77, 79, 86, 92, 76},
                                {79, 91, 93, 78, 84, 92, 82, 84, 86, 79, 87, 72, 74}};
   
-  static double [] overallGrade;
+  static double [] overallGrade; 
   
   public static void main(String[] args) {
     
