@@ -62,7 +62,7 @@ class Lab9_ChiSquaredSimulations {
    
     int count = 0;
 
-    for (int i = 0; i <= n; i++) {
+    for (int i = 0; i < n; i++) {
       int [] o = observations(k);
       double [] e = expected(k);
       double chi2 = chiSquared(o, e);
@@ -79,7 +79,7 @@ class Lab9_ChiSquaredSimulations {
 
     Random r = new Random();
 
-    for(int i = 0; i <=k; i++){
+    for(int i = 0; i < k; i++){
       int sum = r.nextInt(7) + r.nextInt(7);
       o[sum-2]++;
     }
